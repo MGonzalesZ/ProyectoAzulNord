@@ -1,0 +1,45 @@
+#cart_count {
+  text-align: center;
+  padding: 0 0.9rem 0.1rem 0.9rem;
+  border-radius: 3rem;
+}
+
+.shopping-cart {
+  padding: 3% 0;
+}
+
+.cart-items + .cart-items {
+  padding: 2% 0;
+}
+
+.price-details h6 {
+  padding: 3% 2%;
+}
+
+.fa-shopping-cart {
+  color: white;
+}
+.fa-shopping-cart:hover {
+  color: orange;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: black; /* Color rojo */
+  text-shadow: 2px 2px 4px rgb(4, 111, 104); /* Sombra de texto */
+  background-color: #f8f8f8; /* Color de fondo */
+  padding: 20px; /* Relleno interno */
+  border-radius: 10px; /* Borde redondeado */
+  text-align: center;
+}
+
+.card-height {
+  height: 100%; /* Establece la altura deseada para las tarjetas */
+}
+
+.custom-image {
+  width: 100%; /* Establece el ancho deseado para las imágenes */
+  height: 200px; /* Establece la altura deseada para las imágenes */
+  object-fit: cover; /* Ajusta la imagen para que ocupe todo el espacio sin deformarse */
+}

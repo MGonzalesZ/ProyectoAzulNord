@@ -1,0 +1,255 @@
+.login-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  left: calc(36% - 45px);
+}
+.lef {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  left: calc(45% - 45px);
+}
+.righ {
+  background-position: right;
+  position: absolute;
+}
+header {
+  position: fixedd;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  text-transform: uppercase;
+}
+
+.navbar {
+  background: #333;
+}
+#cabecera .nav-item {
+  color: white;
+}
+
+.botonesProductos {
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  /* box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset; */
+  box-sizing: border-box;
+  /* color: #fff; */
+  /* cursor: pointer; */
+  display: inline-block;
+  font-family: system-ui, 'Segoe UI', 'Liberation Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 4px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  /* touch-action: manipulation; */
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+/* .botonesProductos:hover,
+.botonesProductos:focus {
+  background: #e6a437;
+  border-color: #f8b739;
+} */
+
+.cabecera {
+  color: white;
+}
+.cabecera:hover {
+  color: orange;
+  text-decoration: none;
+}
+.td1 {
+  width: 2%;
+}
+.td2 {
+  width: 10%;
+}
+.td3 {
+  width: 35%;
+}
+.td4 {
+  width: 5%;
+}
+.td5 {
+  width: 18%;
+}
+.td6 {
+  width: 25%;
+}
+
+.tablaMarcas {
+  width: 90%;
+}
+#navbarDropdownMenuLink {
+  color: white;
+}
+.cabecera {
+  color: white;
+}
+
+.formatoEliminado {
+  background-color: red;
+  color: white;
+}
+
+.botonMostrarOcultos {
+  float: right;
+  background-color: #d9cea2;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  /* box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset; */
+  box-sizing: border-box;
+  /* color: #fff; */
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, 'Segoe UI', 'Liberation Sans',
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+/* .botonMostrarOcultos:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.botonMostrarOcultos:active {
+  background-color: #0064bd;
+  box-shadow: none;
+} */
+
+.btnTablass {
+  float: right;
+  background-color: #d9cea2;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  /* box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset; */
+  box-sizing: border-box;
+  /* color: #fff; */
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, 'Segoe UI', 'Liberation Sans',
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+/* .btnTablass:hover,
+.btnTablass:focus {
+  background-color: #d9cea2;
+  color: green;
+} */
+
+.tablaCategorias {
+  overflow: auto;
+  height: 100px;
+}
+.tablaCategorias thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.tablaProductos {
+  overflow: auto;
+  height: 100px;
+}
+.tablaProductos thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.tablaMarcas {
+  overflow: auto;
+  height: 100px;
+}
+.tablaMarcas thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.tablaTiendas {
+  overflow: auto;
+  height: 100px;
+}
+.tablaTiendas thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.tablaInvProductos {
+  overflow: auto;
+  height: 100px;
+}
+.tablaInvProductos thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.tablaTiendInv {
+  overflow: auto;
+  height: 100px;
+}
+
+.tablaTiendInv thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.tablaAgrProductos {
+  overflow: auto;
+  height: 100px;
+}
+.tablaAgrProductos {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
